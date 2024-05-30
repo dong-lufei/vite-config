@@ -1,7 +1,15 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 自动导入 vue、vue-router、pinia相关函数，无需手写导入语句
 
-## Recommended IDE Setup
+## 自动导入 element-plus 相关函数，无需手写导入语句
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+<!-- ## 自动导入 vue-i18n 相关函数，无需手写导入语句
+
+## 自动导入 axios 相关函数，无需手写导入语句
+
+## 自动导入 lodash 相关函数，无需手写导入语句 -->
+
+<!-- ## 自动导入 dayjs 相关函数，无需手写导入语句 -->
+
+<!-- ## 自动导入 echarts 相关函数，无需手写导入语句 -->
