@@ -2,13 +2,13 @@
   <el-avatar :size="50"
     src="https://tse1-mm.cn.bing.net/th/id/OIP-C.objwoC2DDhqt-i9ZAFa6FAHaD0?w=319&h=180&c=7&r=0&o=5&pid=1.7" />
   <el-row>
-    <el-checkbox v-model="checkAll" :indeterminate="isIndeterminate" @change="handleCheckAllChange">
+    <el-checkbox name="myCheckbox" v-model="checkAll" :indeterminate="isIndeterminate" @change="handleCheckAllChange">
       全部
     </el-checkbox>
   </el-row>
   <el-row>
     <el-checkbox-group v-model="checkedCities" @change="handleCheckedCitiesChange">
-      <el-checkbox v-for="city in cities" :key="city" :label="city" :value="city">
+      <el-checkbox name="myCheckbox" v-for="city in cities" :key="city" :label="city" :value="city">
         {{ city }}
       </el-checkbox>
     </el-checkbox-group>
